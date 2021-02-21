@@ -57,12 +57,13 @@ nav li a:link{
     #conteudo{
         width: 710px;
         float: left;
-        background: lightblue;
+        margin-bottom: 20px;
     }
     aside{
         width: 350px;
         float: right;
         background:#ebe7dd;
+        margin-bottom: 20px;
     }
     section#visita{
         background: #cdc8b1;
@@ -88,7 +89,23 @@ nav li a:link{
     section#galeria img{
         margin-left: 2px;
         margin-top: 3px ;
+    }
+    article{
+        float: left;
+        width: 310px;
+        margin-left: 37px;
+    }
+    
+    article#video{
+       margin-left: 25px;
+    }
+    
 
+    h3{
+        color: #227115;
+        font-size: 1.0em;
+        margin-bottom: 15px;
+        text-transform: uppercase;
     }
 
     h4{
@@ -97,6 +114,7 @@ nav li a:link{
         padding-bottom: 3px;
         margin-bottom: 0;
     }
+
     input{
         height: 20px;
         width: 80px;
@@ -121,4 +139,20 @@ fieldset{
 
 legend{
     display: none;
+}
+footer{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(../img/fundo-rodape.png) no-repeat;
+    margin-top: 20px;
+
+}
+footer p{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    
+}
+footer a{
+    padding: 20px;
+    margin: 20px 0 20px 0;
 }
